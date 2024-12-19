@@ -51,7 +51,8 @@ export default function CountryPage({ code, name, imageUrl, populationData, bord
       <div className="flex items-center justify-center p-8 border-b border-gray-200">
         {imageUrl && (
           <img
-              width={1200}
+              width={1000}
+
 
             src={imageUrl}
             alt={name}
